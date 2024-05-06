@@ -1,12 +1,6 @@
 "use client";
 import { useState } from "react";
 
-export default function Home() {
-
-  return (<div>Hello there</div>)
-  
-  }
-
   export default function Home() {
     const [theInput, setTheInput] = useState("");
     const [isLoading, setIsLoading] = useState(false);
@@ -41,7 +35,7 @@ export default function Home() {
       setIsLoading(false);
   
     };
-    ...
+
   const Submit = (event: React.KeyboardEvent<HTMLTextAreaElement>) => {
       if (event.key === "Enter") {
         event.preventDefault();
@@ -98,4 +92,4 @@ export default function Home() {
 
 
   {isLoading ? <div className="self-start  bg-gray-200 text-gray-800 w-max max-w-[18rem] rounded-md px-4 py-3 h-min">*thinking*</div> : ""}
-</div>
+</div> }
