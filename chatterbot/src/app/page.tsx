@@ -92,4 +92,5 @@ import { useState } from "react";
 
 
   {isLoading ? <div className="self-start  bg-gray-200 text-gray-800 w-max max-w-[18rem] rounded-md px-4 py-3 h-min">*thinking*</div> : ""}
-</div> }
+</div> 
+}
